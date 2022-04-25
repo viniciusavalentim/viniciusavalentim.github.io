@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Raleway&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html, body{
+  height: 100%;
+}
+
+
+body{
+  background: linear-gradient(180deg, rgba(54,77,204,1) 28%, rgba(14,28,108,1) 85%);
+  background-repeat: no-repeat;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+.image-principal{
+  width: 80px;
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 0 0 20px white;
+  margin-top: 5px;
+
+}
+
+h1{
+  font-family: 'Architects Daughter', sans-serif;
+  font-weight: 100;
+  font-size:24px;
+  margin-bottom: 5px;
+}
+
+h2{
+  margin-top: 0;
+  font-size: 16px;
+}
+
+.profile{
+  text-align: center;
+}
+
+
+.social ul{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin: 20px 0;
+}
+
+
+
+.social img{
+  width: 33px;
+  
+}
+.list-links{
+  list-style: none;
+}
+
+
+.list-links li{
+  margin: 10px 20px;
+}
+
+.list-links li a {
+  text-decoration: none;
+  background-color: white;
+  display: block;
+  padding: 15px;
+  border-radius: 9px;
+  box-shadow: 0px 0px 10px white;
+  list-style: none;
+}
+
+
+span{
+  color: purple;
+  font-weight: bold;
+}
+
+
+/*
+.list-links li a{
+  text-decoration: none;
+}
+
+.list-links li {
+  
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px;
+  list-style: none;
+  box-shadow: 0px 0px 10px white;
+  
+}
+
+span{
+  color: purple;
+  font-weight: bold
+  
+}
+*/
